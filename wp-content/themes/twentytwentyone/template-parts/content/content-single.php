@@ -21,7 +21,20 @@
 	<div class="entry-content">
 		<?php
 		the_content();
+        $articleName = get_post_meta(get_the_ID(), 'Article Name', true);
+        $publisherName = get_post_meta(get_the_ID(), 'Publisher Name', true);
 
+        ?>
+
+        <div class="run-information">
+            <ul>
+                <li><strong>Article Name:</strong> <?php echo $articleName; ?></li>
+                <li><strong>Publisher Name:</strong> <?php echo $publisherName;?></li>
+            </ul>
+        </div>
+
+
+        <?php
 		wp_link_pages(
 			array(
 				'before'   => '<nav class="page-links" aria-label="' . esc_attr__( 'Page', 'twentytwentyone' ) . '">',

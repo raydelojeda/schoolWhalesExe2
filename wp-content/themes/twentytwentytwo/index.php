@@ -3,3 +3,4 @@
 // There is a core ticket discussing removing this requirement for block themes:
 // https://core.trac.wordpress.org/ticket/54272.
 
+get_template_part( 'template/single-press' );

@@ -20,8 +20,8 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'WP_HOME', 'http://wordpress' );
-define( 'WP_SITEURL', 'http://wordpress' );
+define( 'WP_HOME', 'http://schoolwhalesexe2.local/' );
+define( 'WP_SITEURL', 'http://schoolwhalesexe2.local/' );
 
 define( 'DB_NAME', 'schoolWhales' );
 
@@ -29,7 +29,7 @@ define( 'DB_NAME', 'schoolWhales' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', '123' );
+define( 'DB_PASSWORD', 'Ray130865' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
